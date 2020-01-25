@@ -5,8 +5,10 @@
 # The generated .hex file should be one that can be loaded and run
 # directly.
 #
-# Author: Pai Chou
-# CS 3423 Fall 2018
+# Author: Chen Kuan-Hung
+# Student ID: 105061171
+# Mail: khchen.me@gmail.com
+# Course: Operating Systems (CS3423 Fall 2019)
 #
 
 CC = sdcc

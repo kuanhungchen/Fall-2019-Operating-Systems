@@ -5,8 +5,10 @@
 # The generated .hex file should be one that can be loaded and run
 # directly.
 #
-# Author: Pai Chou
-# CS 3423 Fall 2018
+# Author: Chen Kuan-Hung
+# Student ID: 105061171
+# Mail: khchen.me@gmail.com
+# Course: Operating Systems (CS3423 Fall 2019)
 #
 
 CC = sdcc
@@ -22,7 +24,7 @@ testcoop.hex:   $(C_OBJECTS) $(ASM_OBJECTS)
 				$(CC) $(LDFLAGS) -o testcoop.hex $(C_OBJECTS)
 
 clean:
-	rm *.hex *.lst *.map *.mem *.rel *.rst *.sym *.asm *.lk
+	rm *.hex *.asm *.lk *.lst *.map *.mem *.rel *.rst *.sym
 
 %.rel:  %.c    cooperative.h Makefile
 	$(CC) $(CFLAGS) $<

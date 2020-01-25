@@ -1,12 +1,14 @@
 #
-# makefile for testing preemptive multithreading
+# makefile for testing semaphore and bounded-buffer example
 #
 # This assumes you have SDCC installed and this targets EdSim51.
 # The generated .hex file should be one that can be loaded and run
 # directly.
 #
-# Author: Pai Chou
-# CS 3423 Fall 2018
+# Author: Chen Kuan-Hung
+# Student ID: 105061171
+# Mail: khchen.me@gmail.com
+# Course: Operating Systems (CS3423 Fall 2019)
 #
 
 CC = sdcc
