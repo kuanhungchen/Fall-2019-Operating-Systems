@@ -163,7 +163,6 @@ void main(void) {
         SemaphoreCreate(&empty, 3);
         head = 0;
         tail = 0;
-        
 
         currentThreadID = ThreadCreate(Producer1);
         currentThreadID = ThreadCreate(Producer2);
