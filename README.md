@@ -4,7 +4,7 @@ Implementation of a multi-threading package in C language and some test-cases.
 
 ## Requirements
 
-You need Edsim51 to simulator 8051 processor and SDCC to generate Edsim51-targeted files.
+You need Edsim51 to simulate 8051 processor and SDCC to generate Edsim51-targeted files.
 
 - Edsim51
     - From http://edsim51.com/
@@ -32,7 +32,7 @@ Each ppc is based on the previous one.
 
 ## Usage
 
-1. At the ppc directory, use `make` command to generate `.hex` file.
+1. In each ppc directory, use `make` command to generate `.hex` file.
 
     ![1](img/1.png)
 
@@ -48,7 +48,7 @@ Each ppc is based on the previous one.
 
 4. Now you can click _Run_ to execute or _Step_ to execute by one step.
 
-    You can modify the _Update Freq._ to change the number of instructions while running.
+    You can modify the _Update Freq._ to change the execution speed.
 
 5. If you modify the source code, then you need to use `make clean` to remove old `.hex` file and re-generate.
 
@@ -57,4 +57,4 @@ Each ppc is based on the previous one.
 
 ## Others
 
-For more information about this project, please create issues or send me [email](khchen.me@gmail.com).
+Feel free to email me at [khc@gapp.nthu.edu.tw](mailto:khc@gapp.nthu.edu.tw) or open an issue here if you have any ideas.
