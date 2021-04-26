@@ -55,6 +55,6 @@ Each ppc is based on the previous one.
     ![4](img/4.png)
 
 
-## Others
+## Contact
 
 Feel free to email me at [khchen.me@gmail.com](mailto:khchen.me@gmail.com) or open an issue here if you have any ideas.
